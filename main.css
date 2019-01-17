@@ -4,10 +4,36 @@ aside {
   background-color: #181618;
   color: white;
   font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  display: flex;
+}
+
+cite {
+  width: 150px;
+  position: absolute;
+  bottom: 0px;
+  margin-bottom: 25px;
+  color: slategray;
+}
+
+nav {
+  width: 150px;
+  height: 160px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .logo {
   width: 150px;
+  align-self: center;
+  margin: 50px;
 }
 
 h2 {
@@ -23,9 +49,73 @@ main {
 h1 {
   font-size: 18px;
 }
-.products_container {
-  width: 90%;
-}
+
 .product {
   width: 150px;
+}
+
+.cart_container {
+  display: flex;
+  width: 150px;
+  height: 50px;
+  border-top: solid 1px slategray;
+  border-bottom: solid 1px slategray;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cart {
+
+}
+
+.zeros {
+  width: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.line {
+  height: 25px;
+  border-right: solid 1px slategray;
+}
+
+.linetwo {
+  width: 150px;
+  border-bottom: solid 1px slategray;
+}
+
+.products {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border-bottom: solid 1px slategray;
+  padding-bottom: 20px;
+}
+
+.topproduct {
+  height: 30px;
+}
+
+.bottomthree {
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.swag {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  font-family: 'Arial Narrow', Arial, sans-serif
+}
+
+.products_container {
+  width: 60%;
+  margin-left: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
